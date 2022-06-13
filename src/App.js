@@ -51,10 +51,12 @@ function App() {
   
   };
   const styles3 = {
-    width: "200px",
-    height: "200px",
+    width: "100px",
+    height: "100px",
     backgroundColor: "tomato",
-    margin: " 50px",
+    margin: "50px",
+   
+    
   
     transform: `scale(${scale})`,
    
@@ -129,7 +131,7 @@ function App() {
 
       <input
         type="range"
-        min="1"
+        min="0.5"
         max="1.5"
         value={scale}
         onChange={onScaleChange} 
